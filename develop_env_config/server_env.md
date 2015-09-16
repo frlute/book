@@ -40,9 +40,9 @@ sudo make install
 运行 utils/install_server.sh 来初始化安装第一个 redis 运行实例。根据提示，确定:
 >$   sudo /data/soft/redis-2.8.19/utils/install_server.sh
 
- - 端口（6300）
- - 配置文件（/etc/redis/6300.conf)
- - 日志文件路径（/data/redis/log)
+ - 端口（6305）
+ - 配置文件（/data/opt/etc/redis/6305.conf)
+ - 日志文件路径（/data/opt/log/redis)
  - 数据目录（/data/redis/db)
  - 执行文件，服务器（/usr/local/bin/redis-server)
  - 执行文件，客户端（/usr/local/bin/redis-cli）
